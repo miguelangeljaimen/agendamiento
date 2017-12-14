@@ -1,8 +1,7 @@
 
  <?php 
 
- 	//require "Controladores/ClienteControlador.php";
- 	include __DIR__ . "/vendor/autoload.php";
+ 	include __DIR__ . "/../vendor/autoload.php";
  	use mjaimen\Controladores\ClienteControlador;
 
  	$cliente = ClienteControlador::crear('2009-10-10','2009-10-20',10,10);
